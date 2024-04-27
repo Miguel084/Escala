@@ -1,0 +1,6 @@
+﻿services:
+  escala.api:
+    image: escala.api
+    build:
+      context: .
+      dockerfile: Escala.Api/Dockerfile
