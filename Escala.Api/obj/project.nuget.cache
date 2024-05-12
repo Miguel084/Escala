@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UMdgrB7YaxViR4N/okUiWX+Eo7j3abogBXABLlXpTI2jAKIt8E8n2gTHvA4zLFTf+Hp8p0ullWK2RikPvWtxvA==",
+  "dgSpecHash": "1M7KYDqlc/SQh8afme9DVriyfMnaj2up83eAT1w273tCPHA+lIAlBBhOSXaweXRUHZZCMYObjXzcUPOntWrz5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\alegr\\source\\repos\\Escala\\Escala.Api\\Escala.Api.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "C:\\Users\\alegr\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0-preview.3.24172.9\\microsoft.extensions.primitives.9.0.0-preview.3.24172.9.nupkg.sha512",
     "C:\\Users\\alegr\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\alegr\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
+    "C:\\Users\\alegr\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\alegr\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.7\\sqlitepclraw.bundle_e_sqlite3.2.1.7.nupkg.sha512",
     "C:\\Users\\alegr\\.nuget\\packages\\sqlitepclraw.core\\2.1.7\\sqlitepclraw.core.2.1.7.nupkg.sha512",
     "C:\\Users\\alegr\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.7\\sqlitepclraw.lib.e_sqlite3.2.1.7.nupkg.sha512",

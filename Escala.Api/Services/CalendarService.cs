@@ -1,3 +1,5 @@
+using Newtonsoft.Json;
+
 namespace Escala.Api.Services
 {
     public class CalendarService
@@ -21,11 +23,13 @@ namespace Escala.Api.Services
             var content = await response.Content.ReadAsStringAsync();
             return content;
         }
-
-        //TODO: Implementar o método GetDays que consome alguma api que retorne os dias do ano com seus respectivos nomes
-        // public async Task<string> GetDays(int year)
-        // {
-        //     
-        // }
+        public async Task<string> GetHolidaysForMonth(int year, int month)
+        {
+            var response = await GetBrazilHolidays(year);
+            var holidays = JsonConvert.DeserializeObject<List<Holiday>>(response);
+            var holidaysForMonth = (holidays ?? throw new InvalidOperationException()).Where(h => h.Date.Year == year && h.Date.Month == month).ToList();
+            var jsonResult = JsonConvert.SerializeObject(holidaysForMonth);
+            return jsonResult;
+        }
     }
 }

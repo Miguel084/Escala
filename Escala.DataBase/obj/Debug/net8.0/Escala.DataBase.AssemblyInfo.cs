@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Escala.DataBase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4ef1b205875b240fa4e9392f79fa052331bfb32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e974f1832a1376f2046998f8d1c598cea4d985d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Escala.DataBase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Escala.DataBase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

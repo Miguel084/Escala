@@ -20,8 +20,12 @@ public class CalendarController : ControllerBase
         return Content(holidays, "application/json");
     }
     
-    //TODO: Implementar o método GetDays que consome alguma api que retorne os dias do ano com seus respectivos nomes
-
+    [HttpGet("GetHolidaysForMonth/{year}/{month}")]
+    public async Task<IActionResult> GetHolidaysForMonth(int year, int month)
+    {
+        var holidays = await _calendarService.GetHolidaysForMonth(year, month);
+        return Content(holidays, "application/json");
+    }
     
 
 }
