@@ -1,3 +1,4 @@
+using Escala.Api.Models;
 using Newtonsoft.Json;
 
 namespace Escala.Api.Services
