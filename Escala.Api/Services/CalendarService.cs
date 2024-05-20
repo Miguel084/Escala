@@ -12,11 +12,6 @@ namespace Escala.Api.Services
             _httpClient = httpClient;
         }
         
-        /// <summary>
-        /// Esse metoodo retorna os feriados do Brasil
-        /// </summary>
-        /// <param name="year"></param>
-        /// <returns></returns>
         public async Task<string> GetBrazilHolidays(int year)
         {
             var response = await _httpClient.GetAsync($"https://brasilapi.com.br/api/feriados/v1/{year}");
@@ -31,6 +26,27 @@ namespace Escala.Api.Services
             var holidaysForMonth = (holidays ?? throw new InvalidOperationException()).Where(h => h.Date.Year == year && h.Date.Month == month).ToList();
             var jsonResult = JsonConvert.SerializeObject(holidaysForMonth);
             return jsonResult;
+        }
+        
+        public List<DateTime> GetWeekendsOfMonth(int year, int month)
+        {
+            var weekends = new List<DateTime>();
+
+            DateTime firstDayOfMonth = new DateTime(year, month, 1);
+            DateTime lastDayOfMonth = firstDayOfMonth.AddMonths(1).AddDays(-1);
+
+            var allDaysOfMonth = Enumerable.Range(0, (lastDayOfMonth - firstDayOfMonth).Days + 1)
+                .Select(day => firstDayOfMonth.AddDays(day));
+
+            foreach (var day in allDaysOfMonth)
+            {
+                if (day.DayOfWeek is DayOfWeek.Saturday or DayOfWeek.Sunday)
+                {
+                    weekends.Add(day);
+                }
+            }
+
+            return weekends;
         }
     }
 }
