@@ -1,7 +1,9 @@
 using Escala.Api.Services;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Escala.Api.Controllers;
+
 [ApiController]
 [Route("api/[controller]")]
 public class CalendarController : ControllerBase
@@ -25,6 +27,13 @@ public class CalendarController : ControllerBase
     {
         var holidays = await _calendarService.GetHolidaysForMonth(year, month);
         return Content(holidays, "application/json");
+    }
+    
+    [HttpGet("GetWeekendsOfMonth/{month}/{year}")]
+    public IActionResult GetWeekendsOfMonth(int year, int month)
+    {
+        var weekends = _calendarService.GetWeekendsOfMonth(year, month);
+        return Content(JsonConvert.SerializeObject(weekends), "application/json");
     }
     
 

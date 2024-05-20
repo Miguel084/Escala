@@ -362,3 +362,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 /.idea
+/Escala.Api/bin/Debug
+/Escala.DataBase/obj

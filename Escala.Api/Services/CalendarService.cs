@@ -1,3 +1,4 @@
+using System.Globalization;
 using Escala.Api.Models;
 using Newtonsoft.Json;
 
@@ -28,12 +29,12 @@ namespace Escala.Api.Services
             return jsonResult;
         }
         
-        public List<DateTime> GetWeekendsOfMonth(int year, int month)
+        public List<string> GetWeekendsOfMonth(int year, int month)
         {
             var weekends = new List<DateTime>();
 
             DateTime firstDayOfMonth = new DateTime(year, month, 1);
-            DateTime lastDayOfMonth = firstDayOfMonth.AddMonths(1).AddDays(-1);
+            DateTime lastDayOfMonth = firstDayOfMonth.AddDays(DateTime.DaysInMonth(year, month) - 1);
 
             var allDaysOfMonth = Enumerable.Range(0, (lastDayOfMonth - firstDayOfMonth).Days + 1)
                 .Select(day => firstDayOfMonth.AddDays(day));
@@ -46,7 +47,10 @@ namespace Escala.Api.Services
                 }
             }
 
-            return weekends;
+            var cultureInfo = new CultureInfo("pt-BR");
+            var weekendsInPtBr = weekends.Select(date => date.ToString("d", cultureInfo)).ToList();
+
+            return weekendsInPtBr;
         }
     }
 }
