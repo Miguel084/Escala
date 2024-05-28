@@ -1,0 +1,11 @@
+D:\Escala\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Escala\Domain\bin\Debug\net8.0\Domain.dll
+D:\Escala\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Escala\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escala\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Escala\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Escala\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Escala\Domain\obj\Debug\net8.0\Domain.dll
+D:\Escala\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Escala\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Escala\Domain\obj\Debug\net8.0\ref\Domain.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Escala.Server.props" />
+</Project>
