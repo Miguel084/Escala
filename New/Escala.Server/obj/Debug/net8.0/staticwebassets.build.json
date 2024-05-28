@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "e9SKv8wjnSHnZ9P3Jau80tkQrS8il8j7D1eXQ9guJaE=",
+  "Hash": "TVX9cGjQIZx/9gVTHSETBeGc9qgvn4cHIL3njZx8zD8=",
   "Source": "Escala.Server",
   "BasePath": "_content/Escala.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\Escala\\escala.client\\escala.client.esproj",
+      "Identity": "C:\\Users\\alegr\\source\\repos\\Escala\\New\\escala.client\\escala.client.esproj",
       "Version": 2,
       "Source": "escala.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

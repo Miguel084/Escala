@@ -1,1 +1,2 @@
 D:\Escala\escala.client\obj\Debug\escala.client.esproj.CoreCompileInputs.cache
+C:\Users\alegr\source\repos\Escala\New\escala.client\obj\Debug\escala.client.esproj.CoreCompileInputs.cache

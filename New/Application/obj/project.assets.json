@@ -689,23 +689,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\T-GAMER\\.nuget\\packages\\": {},
-    "D:\\Visual Studio Componentes\\NuGetPackages": {}
+    "C:\\Users\\alegr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Escala\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\alegr\\source\\repos\\Escala\\New\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\Escala\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\T-GAMER\\.nuget\\packages\\",
-      "outputPath": "D:\\Escala\\Application\\obj\\",
+      "projectPath": "C:\\Users\\alegr\\source\\repos\\Escala\\New\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\alegr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alegr\\source\\repos\\Escala\\New\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Visual Studio Componentes\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\T-GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alegr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -720,8 +720,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Escala\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Escala\\Domain\\Domain.csproj"
+            "C:\\Users\\alegr\\source\\repos\\Escala\\New\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\alegr\\source\\repos\\Escala\\New\\Domain\\Domain.csproj"
             }
           }
         }
@@ -730,11 +730,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -774,7 +769,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

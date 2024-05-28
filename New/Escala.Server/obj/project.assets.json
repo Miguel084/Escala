@@ -3464,23 +3464,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\T-GAMER\\.nuget\\packages\\": {},
-    "D:\\Visual Studio Componentes\\NuGetPackages": {}
+    "C:\\Users\\alegr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Escala\\Escala.Server\\Escala.Server.csproj",
+      "projectUniqueName": "C:\\Users\\alegr\\source\\repos\\Escala\\New\\Escala.Server\\Escala.Server.csproj",
       "projectName": "Escala.Server",
-      "projectPath": "D:\\Escala\\Escala.Server\\Escala.Server.csproj",
-      "packagesPath": "C:\\Users\\T-GAMER\\.nuget\\packages\\",
-      "outputPath": "D:\\Escala\\Escala.Server\\obj\\",
+      "projectPath": "C:\\Users\\alegr\\source\\repos\\Escala\\New\\Escala.Server\\Escala.Server.csproj",
+      "packagesPath": "C:\\Users\\alegr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alegr\\source\\repos\\Escala\\New\\Escala.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Visual Studio Componentes\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\T-GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alegr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3495,11 +3495,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Escala\\Application\\Application.csproj": {
-              "projectPath": "D:\\Escala\\Application\\Application.csproj"
+            "C:\\Users\\alegr\\source\\repos\\Escala\\New\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\alegr\\source\\repos\\Escala\\New\\Application\\Application.csproj"
             },
-            "D:\\Escala\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Escala\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\alegr\\source\\repos\\Escala\\New\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\alegr\\source\\repos\\Escala\\New\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -3508,11 +3508,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3553,7 +3548,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
