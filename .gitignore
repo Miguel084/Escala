@@ -362,5 +362,7 @@ MigrationBackup/
 FodyWeavers.xsd
 
 /.idea
-/Escala.Api/bin/Debug
-/Escala.DataBase/obj
+Escala.Api/obj/Debug/net8.0/apphost.exe
+Escala.Api/obj/Debug/net8.0/Escala.Api.AssemblyInfoInputs.cache
+/Escala.Api/obj/Debug
+/Escala.Api/bin

@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>9e7f9167-85c3-4041-b034-deb690fec37e</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <SpaRoot>..\escala.client</SpaRoot>
+    <SpaRoot>..\escala.FrontEnd</SpaRoot>
     <SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
     <SpaProxyServerUrl>https://localhost:5173</SpaProxyServerUrl>
   </PropertyGroup>
@@ -24,18 +24,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Escala.DataBase\Escala.DataBase.csproj" />
     <ProjectReference Include="..\escala.FrontEnd\escala.FrontEnd.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTO\" />
     <Folder Include="Repositories\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Remove="Models\Calendar.cs" />
   </ItemGroup>
 
 </Project>

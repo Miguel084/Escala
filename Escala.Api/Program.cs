@@ -1,5 +1,5 @@
-using Escala.Api.DbContexts;
 using Escala.Api.Services;
+using Escala.DataBase.Data.DbContexts;
 using Microsoft.EntityFrameworkCore;
 
 namespace Escala.Api

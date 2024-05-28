@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\alegr\\source\\repos\\Escala\\Escala.Api\\..\\escala.client",
+"WorkingDirectory": "C:\\Users\\alegr\\source\\repos\\Escala\\Escala.Api\\..\\escala.FrontEnd",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

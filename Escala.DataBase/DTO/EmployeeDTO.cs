@@ -1,4 +1,4 @@
-namespace Escala.Api.DTO;
+namespace Escala.DataBase.DTO;
 
 public class EmployeeDTO
 {

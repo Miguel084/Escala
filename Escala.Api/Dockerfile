@@ -17,7 +17,7 @@ FROM with-node AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["Escala.Server/Escala.Server.csproj", "Escala.Server/"]
-COPY ["escala.client/escala.client.esproj", "escala.client/"]
+COPY ["escala.FrontEnd/escala.FrontEnd.esproj", "escala.FrontEnd/"]
 RUN dotnet restore "./Escala.Server/Escala.Server.csproj"
 COPY . .
 WORKDIR "/src/Escala.Server"

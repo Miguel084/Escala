@@ -1,6 +1,6 @@
 ﻿namespace Escala.Api.Models;
 
-public class Funcionario
+public class Employee
 {
     public int Id { get; set; }
 
@@ -8,7 +8,7 @@ public class Funcionario
 
     public required string Unidade { get; set; }
 
-    public required string Sexo { get; set; }
+    public required string Gender { get; set; }
 
     public void Folga()
     {

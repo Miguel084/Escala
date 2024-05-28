@@ -1,49 +1,39 @@
-import { useEffect, useState } from 'react';
+import {useEffect, useState} from 'react';
 import './App.css';
+import Header from "../Components/Header/Header.jsx";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ModalForm from "../Components/ModalForm/ModalForm.jsx";
+import {Button} from "react-bootstrap";
 
-function App() {
-    const [forecasts, setForecasts] = useState();
+export default function App() {
+    const [show, setShow] = useState(false);
+    const [collaborator, setCollaborator] = useState("");
+    const [daysOff, setDaysOff] = useState("");
+    const [monthYear, setMonthYear] = useState("");
 
-    useEffect(() => {
-        populateWeatherData();
-    }, []);
-
-    const contents = forecasts === undefined
-        ? <p><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em></p>
-        : <table className="table table-striped" aria-labelledby="tabelLabel">
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Temp. (C)</th>
-                    <th>Temp. (F)</th>
-                    <th>Summary</th>
-                </tr>
-            </thead>
-            <tbody>
-                {forecasts.map(forecast =>
-                    <tr key={forecast.date}>
-                        <td>{forecast.date}</td>
-                        <td>{forecast.temperatureC}</td>
-                        <td>{forecast.temperatureF}</td>
-                        <td>{forecast.summary}</td>
-                    </tr>
-                )}
-            </tbody>
-        </table>;
-
-    return (
-        <div>
-            <h1 id="tabelLabel">Weather forecast</h1>
-            <p>This component demonstrates fetching data from the server.</p>
-            {contents}
-        </div>
-    );
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    const [funcionarios, setFuncionarios] = useState([]);
     
-    async function populateWeatherData() {
-        const response = await fetch('weatherforecast');
-        const data = await response.json();
-        setForecasts(data);
-    }
-}
+    return (
+        <>
+            <Header />
+            <p>Escala 5x2 Fixa</p>
+            <Button variant="primary" onClick={handleShow}>
+                Fazer uma nova Escala
+            </Button>
 
-export default App;
+            <ModalForm
+                show={show}
+                handleClose={handleClose}
+                handleShow={handleShow}
+                collaborator={collaborator}
+                setCollaborator={setCollaborator}
+                daysOff={daysOff}
+                setDaysOff={setDaysOff}
+                monthYear={monthYear}
+                setMonthYear={setMonthYear}
+            />
+        </>
+    );
+}

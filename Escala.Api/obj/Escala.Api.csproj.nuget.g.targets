@@ -7,6 +7,7 @@
     <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.19.6\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.19.6\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.options\9.0.0-preview.3.24172.9\buildTransitive\net8.0\Microsoft.Extensions.Options.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.options\9.0.0-preview.3.24172.9\buildTransitive\net8.0\Microsoft.Extensions.Options.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\9.0.0-preview.3.24172.9\buildTransitive\net8.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\9.0.0-preview.3.24172.9\buildTransitive\net8.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.spaproxy\8.0.4\build\Microsoft.AspNetCore.SpaProxy.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.spaproxy\8.0.4\build\Microsoft.AspNetCore.SpaProxy.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.spaproxy\8.0.5\build\Microsoft.AspNetCore.SpaProxy.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.spaproxy\8.0.5\build\Microsoft.AspNetCore.SpaProxy.targets')" />
+    <Import Project="$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.targets" Condition="Exists('$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.targets')" />
   </ImportGroup>
 </Project>

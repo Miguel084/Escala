@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Escala.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88703247effeb79c6d7298aadb22e65dab5c1d2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4140fc425bc4d85c7289bc81153495bdf91f182")]
 [assembly: System.Reflection.AssemblyProductAttribute("Escala.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Escala.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
