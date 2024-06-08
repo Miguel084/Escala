@@ -4,7 +4,7 @@ export default function Header() {
         <>
             <header >
                 <>
-                <a href={'/'}>Escala 5x2 Fixa</a>
+                <h1>Escala 5x2 Fixa</h1>
                 </>                
             </header>
         </>

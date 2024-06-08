@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "7xshhvr+7TRcOa7gH2chlBCgRNWktkh5oB3Yd3HBSFYQPZzEgUF5+h4HxaAkfmyFBHZth6daP4/IYIT/UAe9qg==",
+  "dgSpecHash": "jeQNhlImFht0ENYeZdMuAMn/d7BnA2oPEyKB8Wh51xEpEQdzn+YMn5R/erHvo8z21v/vze66OptluPNtPdy/RQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\alegr\\source\\repos\\Escala\\New\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alegr\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\alegr\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\alegr\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.5\\microsoft.entityframeworkcore.8.0.5.nupkg.sha512",
-    "C:\\Users\\alegr\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",
-    "C:\\Users\\alegr\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.5\\microsoft.entityframeworkcore.analyzers.8.0.5.nupkg.sha512",
+    "C:\\Users\\alegr\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
+    "C:\\Users\\alegr\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
+    "C:\\Users\\alegr\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.6\\microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512",
     "C:\\Users\\alegr\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\alegr\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\alegr\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

@@ -1,1 +1,0 @@
-namespace Escala.Api.Models;

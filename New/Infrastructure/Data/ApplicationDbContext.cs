@@ -11,25 +11,16 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> option)
 
     public Task<int> SaveChanges(CancellationToken cancellationToken)
     {
-        throw new NotImplementedException();
+        return base.SaveChangesAsync(cancellationToken);
     }
 
-    //protected override void OnModelCreating(ModelBuilder modelBuilder)
-    //{
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Employee>()
+            .HasMany(e => e.Locals)
+            .WithOne()
+            .Metadata.PrincipalToDependent?.SetField("_locals");
 
-    //    //modelBuilder.Entity<Employee>()
-    //    //     .HasKey(x => x.Id);
-
-    //    //modelBuilder.Entity<Local>()
-    //    //    .HasKey(x => x.Id);
-
-    //    //modelBuilder.Entity<Employee>()
-    //    //    .HasMany(x => x.Unidade)
-    //    //    .WithOne(x => x.Employee)
-    //    //    .HasForeignKey(x => x.EmployeeId)
-    //    //    .IsRequired(false);
-
-
-    //    base.OnModelCreating(modelBuilder); 
-    //}
+        base.OnModelCreating(modelBuilder);
+    }
 }

@@ -137,9 +137,9 @@ D:\Escala\Escala.Server\obj\Debug\net8.0\refint\Escala.Server.dll
 D:\Escala\Escala.Server\obj\Debug\net8.0\Escala.Server.pdb
 D:\Escala\Escala.Server\obj\Debug\net8.0\Escala.Server.genruntimeconfig.cache
 D:\Escala\Escala.Server\obj\Debug\net8.0\ref\Escala.Server.dll
+C:\Users\alegr\source\repos\Escala\New\Escala.Server\bin\Debug\net8.0\spa.proxy.json
 C:\Users\alegr\source\repos\Escala\New\Escala.Server\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\alegr\source\repos\Escala\New\Escala.Server\bin\Debug\net8.0\appsettings.json
-C:\Users\alegr\source\repos\Escala\New\Escala.Server\bin\Debug\net8.0\spa.proxy.json
 C:\Users\alegr\source\repos\Escala\New\Escala.Server\bin\Debug\net8.0\Escala.Server.exe
 C:\Users\alegr\source\repos\Escala\New\Escala.Server\bin\Debug\net8.0\Escala.Server.deps.json
 C:\Users\alegr\source\repos\Escala\New\Escala.Server\bin\Debug\net8.0\Escala.Server.runtimeconfig.json

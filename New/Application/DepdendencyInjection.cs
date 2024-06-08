@@ -14,9 +14,8 @@ public static class DepdendencyInjection
             cfg.AutoRegisterRequestProcessors = true;
             cfg.RegisterServicesFromAssemblies(typeof(DepdendencyInjection).Assembly);
         });
-
-        //var cfg = configuration.GetSection(ExternalServicesOptions.Section);
-
+        var cfg = configuration.GetSection(ExternalServicesOptions.Section);
+    
 
      
 

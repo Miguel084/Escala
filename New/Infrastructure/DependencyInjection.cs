@@ -9,11 +9,6 @@ using Microsoft.Extensions.Options;
 
 namespace Infrastructure;
 
-
-
-
-
-
 public static class DependencyInjection
 {
     public static IServiceCollection AddInfraServices(this IServiceCollection services, IConfiguration configuration)
@@ -37,8 +32,8 @@ public static class DependencyInjection
         services.AddHttpClient();
         services.AddHttpClient<ICalendarService,CalendarService>((sp, client) =>
         {
-            var cfg = sp.GetService<IConfiguration>();
-            var url = cfg.GetSection("ExternalServices:CalendarApi");
+            var config = sp.GetService<IConfiguration>();
+            var url = config.GetSection("ExternalServices:CalendarApi");
             client.BaseAddress = new Uri(url.Value);
 
         });

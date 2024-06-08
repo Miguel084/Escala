@@ -1,6 +1,6 @@
-@Escala.Server_HostAddress = http://localhost:5076
+@Escala.Server_HostAddress = http://localhost:5173
 
-GET {{Escala.Server_HostAddress}}/weatherforecast/
-Accept: application/json
 
+GET {{Escala.Server_HostAddress}}/api/Funcionario/all
+accept: application/json
 ###

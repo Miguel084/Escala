@@ -18,7 +18,7 @@ public class LocaisController : ControllerBase
     }
 
     [HttpPost("incluir")]
-    public async Task<IResult> Incluir([FromBody] CadastrarLocalCommand command, CancellationToken cancellationToken)
+    public async Task<IResult> Incluir([FromForm] CadastrarLocalCommand command, CancellationToken cancellationToken)
     {
         var result = await _mediator.Send(command, cancellationToken);
         return Results.Ok(result);
@@ -29,6 +29,7 @@ public class LocaisController : ControllerBase
     public async Task<IResult> GetAll(CancellationToken cancellationToken)
     {
         var result = await _mediator.Send(new GetAllQuery(), cancellationToken);
-        return Results.Ok(result);
+        var localDtos = result.ToList();
+        return localDtos.Any() ? Results.Ok(localDtos) : Results.NotFound();
     }
 }
